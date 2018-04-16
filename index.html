@@ -1,41 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="scss/style.css">
-    <!--Font Awesome-->
-
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <title>Centro Médico Las Heras</title>
 </head>
 <body>
 <header id='main-header'>
     <div class='container'>
-        <a class='logo' href='#'>Guided Tours</a>
+        <a class='logo' href='#'><img src="img/logo.png" alt=""></a>
         <nav>
-            <a href='#'>Tours</a>
-            <a href='#'>Pricing</a>
+            <a href='#'>El centro</a>
+            <a href='#'>Equipo profesional</a>
+            <a href='#'>Servicios</a>
+            <a href='#'>Formación</a>
+            <a href='#'>Ubicación</a>
+            <a href='#'>Contacto</a>
+
         </nav>
     </div>
 </header>
-<div id='intro'>
-    <div class='cta container'>
-        <img alt='Splash' class='splash' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/adventure-splash.svg'>
-        <h1>Explore and Discover</h1>
-        <p>Delectus illum corporis laundantium illo repudiandae et doloemque.</p>
+<section class="full-width-slider">
+    <ul class="slides">
+        <li class="selected">
+            <div>
+                <h2>TITULO #1</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h2>TITULO #2</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h2>TITULO #3</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </li>
+
+        <li>
+            <div>
+                <h2>TITULO #4</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </li>
+    </ul> <!-- .slides -->
+
+    <ul class="slider-navigation">
+        <li><a href="#0" class="next">&rarr;</a></li>
+        <li><a href="#0" class="prev">&larr;</a></li>
+    </ul>
+
+    <ol class="slider-dots-navigation">
+        <li><a href="#0" class="selected">1</a></li>
+        <li><a href="#0">2</a></li>
+        <li><a href="#0">3</a></li>
+        <li><a href="#0">3</a></li>
+    </ol>
+</section> <!-- .full-width-slider -->
+<div class='container' id='pricing'>
+    <article>
+        <h3>EQUIPO PROFESIONAL /STAFF INTERDISCIPLIANARIO</h3>
+        <p> suscipit, consequatur debitis animi impedit numquam facilis iusto porro labore dolorem, maxime magni incidunt. Delectus, est!</p>
+        <p>Possimus deserunt nisi perferendis, consequuntur odio et aperiam, est, dicta dolor itaque sunt laborum, magni qui optio illum dolore laudantium similique harum. Eveniet quis, libero eligendi delectus repellendus repudiandae ipsum.</p>
         <a class='button' href='#'>
-            <span>Start your adventure</span>
+            <span>VER MÁS</span>
         </a>
-    </div>
+    </article>
+    <article>
+        <h3>SERVICIOS</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci, sed libero. Iste asperiores suscipit, consequatur debitis animi impedit numquam facilis iusto porro labore dolorem, maxime magni incidunt. Delectus, est!</p>
+        <p>Possimus deserunt nisi perferendis, consequuntur odio et aperiam, est, dicta dolor itaque sunt laborum, magni qui optio illum dolore laudantium similique harum. Eveniet quis, libero eligendi delectus repellendus repudiandae ipsum.</p>
+        <a class='button' href='#'>
+            <span>VER MÁS</span>
+        </a>
+    </article>
+    <article>
+        <h3>AREA DE FORMACIÓN</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci, sed libero. Iste asperiores suscipit, consequatur debitis animi impedit numquam facilis iusto porro labore dolorem, maxime magni incidunt. Delectus, est!</p>
+        <p>Possimus deserunt nisi perferendis, consequuntur odio et aperiam, est, dicta dolor itaque sunt laborum, magni qui optio illum dolore laudantium similique harum. Eveniet quis, libero eligendi delectus repellendus repudiandae ipsum.</p>
+        <a class='button' href='#'>
+            <span>VER MÁS</span>
+        </a>
+    </article>
 </div>
 <div id='tours'>
-    <div class='container'>
-        <h2>Where would you like to go?</h2>
-        <form action='#'>
-            <input id='location' placeholder='Location' type='text'>
-            <button class='button' type='submit'>Get Moving</button>
-        </form>
-    </div>
     <ul>
         <li>
             <div>
@@ -103,58 +159,117 @@
         </li>
     </ul>
 </div>
-<div class='container' id='pricing'>
-    <article>
-        <h3>Tier 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci, sed libero. Iste asperiores suscipit, consequatur debitis animi impedit numquam facilis iusto porro labore dolorem, maxime magni incidunt. Delectus, est!</p>
-        <p>Possimus deserunt nisi perferendis, consequuntur odio et aperiam, est, dicta dolor itaque sunt laborum, magni qui optio illum dolore laudantium similique harum. Eveniet quis, libero eligendi delectus repellendus repudiandae ipsum.</p>
-        <a class='button' href='#'>
-            <span>Learn More</span>
-        </a>
-    </article>
-    <article>
-        <h3>Tier 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci, sed libero. Iste asperiores suscipit, consequatur debitis animi impedit numquam facilis iusto porro labore dolorem, maxime magni incidunt. Delectus, est!</p>
-        <p>Possimus deserunt nisi perferendis, consequuntur odio et aperiam, est, dicta dolor itaque sunt laborum, magni qui optio illum dolore laudantium similique harum. Eveniet quis, libero eligendi delectus repellendus repudiandae ipsum.</p>
-        <a class='button' href='#'>
-            <span>Learn More</span>
-        </a>
-    </article>
-    <article>
-        <h3>Tier 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci, sed libero. Iste asperiores suscipit, consequatur debitis animi impedit numquam facilis iusto porro labore dolorem, maxime magni incidunt. Delectus, est!</p>
-        <p>Possimus deserunt nisi perferendis, consequuntur odio et aperiam, est, dicta dolor itaque sunt laborum, magni qui optio illum dolore laudantium similique harum. Eveniet quis, libero eligendi delectus repellendus repudiandae ipsum.</p>
-        <a class='button' href='#'>
-            <span>Learn More</span>
-        </a>
-    </article>
-</div>
+
 <div id='main-footer'>
-    <p>&copy 2016</p>
+    <p>Centro médico Las Heras. Copyright 2018</p>
 </div>
-<script>
-    $('.cta a').click(function() {
-        $('html,body').animate({
-            scrollTop: $('#tours').offset().top
-        }, 500);
-        return false;
-    });
-
-    $('#tours li').on('click', function() {
-        $('#location').val($('img', this).attr('alt'));
-    });
-</script>
-<script>
-    $('.cta a').click(function() {
-        $('html,body').animate({
-            scrollTop: $('#tours').offset().top
-        }, 500);
-        return false;
-    });
-
-    $('#tours li').on('click', function() {
-        $('#location').val($('img', this).attr('alt'));
-    });
-</script>
 </body>
+
+<script>
+    (function(){
+        //define a slider object
+        function slider(element) {
+            this.element = element;
+            this.slides = this.element.querySelector('.slides').getElementsByTagName('li');
+            this.slidesNumber = this.slides.length;
+            this.arrowsNavigation = this.element.querySelector('.slider-navigation');
+            this.dotsNavigation = this.element.querySelector('.slider-dots-navigation');
+            this.dots = this.dotsNavigation.getElementsByTagName('a');
+
+            this.selectedSlide = 0;
+            this.prevSelectedSlide = 0;
+            this.intervalId;
+            //check if mouse is over the slide element
+            this.hovered = false;
+
+            this.bindEvents();
+            this.initAutoPlay();
+        }
+
+        slider.prototype.bindEvents = function() {
+            var self = this;
+            //detect click on arrows
+            this.arrowsNavigation.addEventListener('click', function(event){
+                if( event.target.tagName.toLowerCase() == 'a' ) {
+                    event.preventDefault();
+                    //determine new slide index
+                    var newSlideIndex = ( event.target.classList.contains('next') )
+                        ? self.selectedSlide + 1
+                        : self.selectedSlide - 1;
+
+                    self.showNewSlide(newSlideIndex);
+                }
+            });
+            //detect click on dots navigation
+            this.dotsNavigation.addEventListener('click', function(event){
+                if( event.target.tagName.toLowerCase() == 'a' ) {
+                    event.preventDefault();
+                    //determine new slide index
+                    var newSlideIndex = elementIndex(event.target.parentElement);
+                    self.showNewSlide(newSlideIndex);
+                }
+            });
+            //stop autoplay while hovering over the slider
+            this.element.addEventListener('mouseenter', function(){
+                self.hover = true;
+                clearInterval(self.intervalId);
+            });
+            //initialize autoplay when leaving the slider
+            this.element.addEventListener('mouseleave', function(){
+                self.hover = false;
+                self.initAutoPlay();
+            });
+        }
+
+        slider.prototype.initAutoPlay = function() {
+            var self = this;
+            this.intervalId = setInterval(function(){
+                self.showNewSlide(self.selectedSlide + 1);
+            }, 5000);
+        }
+
+        slider.prototype.showNewSlide = function(index) {
+            clearInterval(this.intervalId);
+            if( index < 0 ) index = this.slidesNumber - 1;
+            if( index > this.slidesNumber - 1 ) index = 0;
+            this.prevSelectedSlide = this.selectedSlide;
+            this.selectedSlide = index;
+
+            for( var i = 0; i < this.slidesNumber; i++) {
+                if( i < this.selectedSlide ) {
+                    this.slides[i].classList.add('move-left');
+                    this.slides[i].classList.remove('selected', 'visible');
+                    this.dots[i].classList.remove('selected');
+                } else if( i == this.selectedSlide ) {
+                    this.slides[i].classList.add('selected');
+                    this.slides[i].classList.remove('move-left');
+                    this.dots[i].classList.add('selected');
+                } else {
+                    this.slides[i].classList.remove('selected', 'move-left', 'visible');
+                    this.dots[i].classList.remove('selected');
+                }
+            }
+
+            this.slides[this.prevSelectedSlide].classList.add('visible');
+
+            if( !this.hover ) this.initAutoPlay();
+        }
+
+        function elementIndex(element) {
+            var siblings = element.parentElement.children;
+            for ( var i = 0; i < siblings.length; i++ ) {
+                if( siblings[i] == element ) return i;
+            }
+            return -1;
+        }
+
+        var sliders = document.getElementsByClassName('full-width-slider');
+        for( var i = 0; i < sliders.length; i++) {
+            (function(i){
+                new slider(sliders[i]);
+            }(i));
+        }
+    })();
+</script>
+
 </html>
